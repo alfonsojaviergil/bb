@@ -134,6 +134,7 @@ function verDetalles(id) {
 
    document.getElementById("detallescapa").style.display = 'block';
    document.getElementById("detalles").innerHTML = texto;
+   document.getElementById("detallescapa").scrollTop = 0;
 }
 
 function cerrarDetalles() {
