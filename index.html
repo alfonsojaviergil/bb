@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba BBVA</title>
     <script src="./includes/js.js"></script>
+    <link rel="stylesheet" href="./includes/css.css">
 </head>
 <body>
+    <header>
+        <h1>Listado personajes de las temporadas 3 y 5</h1>
+    </header>
+    <main>
+        <div id="cargando">
+            <img src="./includes/loading.gif" alt="">
+            <br>
+            Cargando Datos...
+        </div>
+        <div id="detallescapa">
+            <button onclick="cerrarDetalles()">Cerrar</button>
+            <div id="detalles"></div>
+            <button onclick="cerrarDetalles()">Cerrar</button>
+        </div>
+        <ul id="listado">
+
+        </ul>
+
+        <p id="diasultimoepisodio">
+            
+        </p>
+    </main>
     
 </body>
 </html>
